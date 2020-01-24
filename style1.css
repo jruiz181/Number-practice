@@ -1,0 +1,25 @@
+html{
+    background: linear-gradient(lightblue, lightgreen);
+    height: 100%;
+}
+
+body{
+    text-align: center;
+}
+
+form {
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 3em;
+    text-shadow: gray -2px 2px 2px;
+    color: black;
+}
+
+button{
+    font-size: 1em;
+    margin: 7px;
+    border: black solid 1px;
+    box-shadow: black -2px 2px 2px;
+}
