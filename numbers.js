@@ -67,3 +67,48 @@ function whack(e){
 }
 //step 5 keep track of score with forEach//
 moles.forEach(mole => mole.addEventListener('click', whack));
+
+//----------------function largest number-----------------
+
+function large(){
+    num1= parseFloat(first.value);
+    num2= parseFloat(second.value);
+    num3 = parseFloat(third.value);
+    num4 = parseFloat(fourth.value);
+    num5 = parseFloat(fifth.value);
+    num6 = parseFloat(sixth.value);
+    
+    var large = Math.max(num1, num2, num3, num4, num5, num6);
+
+    output.innerHTML = large;
+
+    return true
+}
+
+//-----------------function middle------------------------------
+
+function middle(){
+    num1= parseFloat(first.value);
+    num2= parseFloat(second.value);
+    num3 = parseFloat(third.value);
+    num4 = parseFloat(fourth.value);
+    num5 = parseFloat(fifth.value);
+    num6 = parseFloat(sixth.value);
+
+}
+
+//----------------Function duplicate--------------------
+
+function duplicate(){
+    num1= parseFloat(first.value);
+    num2= parseFloat(second.value);
+    num3 = parseFloat(third.value);
+    num4 = parseFloat(fourth.value);
+    num5 = parseFloat(fifth.value);
+    num6 = parseFloat(sixth.value);
+
+    if(num1 === num2||num1 == num3||num1 == num4
+    ||num1 == num5||num1 == num6){
+
+    }
+}
