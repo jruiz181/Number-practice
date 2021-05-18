@@ -229,3 +229,20 @@ function middle(){
     num5 = parseFloat(fifth.value);
     num6 = parseFloat(sixth.value);
 
+}
+
+//----------------Function duplicate--------------------
+
+function duplicate(){
+    num1= parseFloat(first.value);
+    num2= parseFloat(second.value);
+    num3 = parseFloat(third.value);
+    num4 = parseFloat(fourth.value);
+    num5 = parseFloat(fifth.value);
+    num6 = parseFloat(sixth.value);
+
+    if(num1 === num2||num1 == num3||num1 == num4
+    ||num1 == num5||num1 == num6){
+
+    }
+}
